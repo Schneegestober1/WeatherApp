@@ -1,5 +1,5 @@
 const apiKey = '21616cbb6c4bc67b09bc62b557f025b8'
-const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=berlin'
+const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=italy'
 
 async function checkWeather() {
     try{
@@ -15,4 +15,3 @@ async function checkWeather() {
 }
 
 checkWeather()
-
